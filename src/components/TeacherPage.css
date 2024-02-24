@@ -1,0 +1,85 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    background-image: url('../teacher.jpg');
+    background-size: cover; 
+    background-position: center; 
+
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  #form {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* border: 2px solid red; */
+    margin-right: 500px;
+    /* margin-top: 200px; */
+
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .signinBtn, .signupBtn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .signinBtn {
+    background-color: #90a7c1;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+
+  .signinBtn:hover {
+    background-color: rgb(105, 105, 222);
+  }
+  .signupBtn:hover {
+    background-color: rgb(105, 105, 222);
+  }
+  
+  .signupBtn {
+    background-color: #90a7c1;
+    font-weight: bold;
+    border-radius: 5px;
+    color: #fff;
+
+  }
+  
+  .head {
+    /* border: 2px solid red; */
+    margin-top: -250px;
+    color: #90a7c1;                                                                                                                                                                                                                                                                                             
+    margin-right: 500px;
+
+  }

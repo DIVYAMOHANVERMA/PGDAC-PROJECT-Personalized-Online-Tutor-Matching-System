@@ -1,0 +1,20 @@
+.coursesection {
+    /* border: 2px solid red; */
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+.courseabout {
+    width: 70%;
+    color: black;
+    height: auto;
+    /* border: 2px solid red; */
+}
+.courseabout:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+}
+.courseaboutdetail {
+    height: 50vh;
+    overflow-y: auto;
+}

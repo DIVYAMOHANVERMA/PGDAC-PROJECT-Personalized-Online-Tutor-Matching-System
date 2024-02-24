@@ -1,0 +1,21 @@
+.buttonleft {
+    /* border: 2px solid red; */
+    width: 60%;
+}
+.studentonboardheader {
+    display: flex;
+}
+.signoutBtn {
+    /* border: 2px solid red; */
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(155, 155, 243);
+    margin-left: 85%;
+
+}
+.signoutBtn:hover {
+    color: rgb(39, 39, 192);
+    cursor: pointer;
+}

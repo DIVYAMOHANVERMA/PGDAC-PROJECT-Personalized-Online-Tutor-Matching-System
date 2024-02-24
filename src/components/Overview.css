@@ -1,0 +1,16 @@
+.overviews {
+    color: black;
+    /* border: 2px solid red; */
+    width: 70%;
+    font-size: 20px;
+    margin: auto;
+    justify-content:flex-end;
+
+}
+body {
+    /* background: linear-gradient(135deg, #00c6fb, #005bea); */
+    color: #ffffff; 
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}

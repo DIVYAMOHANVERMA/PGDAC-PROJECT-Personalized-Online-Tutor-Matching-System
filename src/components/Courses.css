@@ -1,0 +1,49 @@
+.cardbox {
+    width: 40%;
+    /* border: 2px solid red; */
+    /* height: 25%; */
+    margin: 10px auto;
+    text-align: center;
+
+}
+.cardbox:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+}
+.cardbox > img {
+    width: 60%;
+    flex-wrap: wrap;
+    height: 65%;
+}
+.cardcomponent {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px auto;
+    /* border: 2px solid red; */
+    width: 80%;
+
+
+}
+.enrollBtn {
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(238, 105, 105);
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.coursestopic {
+    color: black;
+}
+
+/* #maincoursediv {
+    border: 2px solid red;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(183,223,223,0.756827731092437) 30%, rgba(0,212,255,1) 100%);
+    background-size:cover; 
+    background-position: center top 20px; 
+} */

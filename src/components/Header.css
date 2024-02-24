@@ -1,0 +1,48 @@
+.studentBtn:hover {
+    background-color: rgb(105, 105, 222);
+  }
+  .teacherBtn:hover {
+    background-color: rgb(105, 105, 222);
+  }
+  .navbar-div > button:hover {
+    background-color: rgb(105, 105, 222);
+
+  }
+
+  .buttons-container {
+    display: grid;
+    place-items: center;
+    margin-right: 500px;
+    margin-top: 100px;
+    width: 100%;
+  }
+
+  .navbar-div > button, .studentBtn, .teacherBtn{
+    padding: 12px 24px;
+    margin: 10px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    /* border-radius: 10%; */
+    transition: background-color 0.3s ease;
+    background-color: #90a7c1;
+    color: white;
+    outline: none;
+  }
+
+.navbar-div  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  padding: 10px;
+  width: 90%;
+  /* border: 2px solid red; */
+  color: #f4f4d4;
+
+}
+
+body {
+  color: #f4f4d4;
+
+}
