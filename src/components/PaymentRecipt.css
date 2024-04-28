@@ -1,0 +1,22 @@
+/* body{
+    background-color: white;
+}
+.PaymentRecipt{
+    color: white;
+} */
+.receipt-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .receipt-details {
+    margin-top: 20px;
+  }
+  
+  .receipt-details p {
+    margin: 10px 0;
+  }
+  
